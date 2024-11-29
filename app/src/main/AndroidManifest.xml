@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sms.trainticketbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/book"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrainTicketBook">
+        <activity android:name=".project.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".project.HomePage"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".project.AddBalancePage"
+            android:label="Booking"
+            />
+        <activity
+            android:name=".project.BookTicketPage"
+            android:label="Booking"
+            />
+        <activity
+            android:name=".project.SelectPage"
+            android:label="Details"/>
+        <activity
+            android:name=".project.LoginPage"
+            android:label="Login"
+            />
+        <activity
+            android:name=".project.ViewTicketPage"
+            android:label="Search Ticket"
+            />
+        <activity
+            android:name=".project.TicketDetailsPage"
+            android:label="Ticket Details"
+            />
+
+        <activity
+            android:name=".project.RegisterPage"
+            android:label="Registration"/>
+    </application>
+
+</manifest>

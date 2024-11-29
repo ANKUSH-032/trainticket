@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TrainTicketBook</string>
+    <string name="title_activity_login_page">Sign in</string>
+    <string name="SpinnerHeader">Lines</string>
+
+    <array name="options">
+        <item>--Select--</item>
+        <item>Details</item>
+        <item>Book Ticket</item>
+        <item>View Ticket</item>
+        <item>Add Balance</item>
+        <item>Logout</item>
+    </array>
+
+    <!--/////////////////////////////////-->
+    <string name="selectLine">--Select Line--</string>
+    <string name="selectStation">--Select Station--</string>
+    <!--/////////////////////////////-->
+
+    <array name="lineType">
+        <item>--Select--</item>
+        <item>India</item>
+    </array>
+    <array name="Stations">
+        <item>--Select--</item>
+        <item>Delhi</item>
+        <item>Varanasi</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Mumbai</item>
+        <item>jammu</item>
+        <item>Amritsir</item>
+        <item>Ayodhya</item>
+        <item>Asam</item>
+    </array>
+    <!--///////////////////////////////////-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+</resources>
